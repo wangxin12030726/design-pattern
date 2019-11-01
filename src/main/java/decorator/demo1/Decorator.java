@@ -1,7 +1,7 @@
 package decorator.demo1;
 
 /**
- * 装饰接口，唯一一个指向组价对象的接口，并定义一个与组件接口一致的接口
+ * 装饰接口，唯一一个指向组件对象的接口，并定义一个与组件接口一致的接口
  */
 public abstract class Decorator extends  Component{
     //持有对象组件
